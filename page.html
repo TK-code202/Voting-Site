@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/jquery-3.6.4.js"></script>
+    <script src="js/script.js"></script>
+    <link rel="icon" href="img/logo.png">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="head-section">
+
+            <div class="logo-section">      
+                <img src="img/logo.png" alt="logo">
+                <h3 class="mt-3">Voting and Elections</h3>
+
+                <ul class="nav mt-2">
+               
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="information.html">Voter Information</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="update.html">Election Information</a>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div class="showcase">
+
+                <div class="background">
+                    <img src="img/pexels-photo-409.webp" alt="">
+                </div>
+
+                <blockquote class="blockquote">
+                    <p class="mb-0">"Democracy is the goverment of the people, for the people and by the people."</p>
+                    <footer class="blockquote-footer">Abraham Lincoln
+                    </footer>
+                </blockquote>
+            </div>
+        </div>
+
+        <form action="" id="formOne">
+            <h2>Check Voter Status</h2>
+            <div class="form-group">
+                <label for="first-name">First Name</label>
+                <input id="first-name" class="form-control" type="text" required>
+            </div>
+            <div class="form-group">
+                <label for="last-name">Last Name</label>
+                <input id="last-name" class="form-control" type="text" required>
+            </div>
+        
+            <div class="form-group">
+                Gender:
+                <div>
+                    <input type="radio"  name="Gender" value="Male" >
+                    <label for="Male">Male</label>  
+                </div>
+                <input type="radio" name="Gender"  value="Female" >
+                <label for="Female">Female</label>
+            </div>
+            <div class="form-group">
+                <label for="age">Age</label>
+                <input id="age" class="form-control" type="number" required>
+            </div>
+
+            <button type="submit" class="btn btn-secondary">Submit</button>
+
+        </form>
+        
+        <div class="footer bg-dark ">
+            <p class="text-center">©Copyright 2023 by TK</p>
+        </div>
+    </div>
+
+</body>
+</html>
