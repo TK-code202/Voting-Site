@@ -70,12 +70,6 @@ font-weight: 700;
     padding: 30px;
 }
 
-/* .result-screen img {
-    height: 14rem;
-    object-fit: cover;
-    object-position: bottom; 
-    
-} */
 
 .result-screen {
     background-color: rgba(24, 173, 81, 0.856);
@@ -124,17 +118,23 @@ blockquote p {
     font-size: 2.2rem;
     width: 60%;
 }
+
+
 /* Information */
 .display-info {
     margin-top: 55%;
     margin-left: 5%;
 }
 
+
+
 /* Update */
 .election-info {
     margin-top: 55%;
     margin-left: 5%;
 }
+
+
 
 /* register */
 
@@ -169,6 +169,8 @@ blockquote p {
 .bigger {
     font-size: 1.2rem;
 }
+
+
 
 .footer {
     margin-right: -10%;
