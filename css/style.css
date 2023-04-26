@@ -1,0 +1,180 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+.container {
+    margin: 0;
+    padding: 0;
+}
+
+.background img {
+    width: 90%;
+    height: 30rem;
+    object-fit: cover;
+    object-position: bottom; 
+    position: absolute;
+    z-index: -1;
+    top: 15%;
+    left: 6%;
+}
+
+.logo-section img {
+    max-width: 60px;
+    max-height: 60%;
+    border-radius: 100px;
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+    gap: 2%;
+    margin-left: 5%;
+}
+
+.nav {
+    margin-left: 8%;
+}
+
+.active {
+font-weight: 700;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    color: black;
+}
+
+.showcase-text {
+    padding: 10px;
+    padding-top: 25px;
+    margin-left: 8%;
+    margin-top: 16%;
+    background-color: rgba(245, 245, 220, 0.897);
+    border-radius: 5px;
+    width: 50%;
+    min-height: 18rem;
+    font-size: 1.6rem;
+    color: blue;
+}
+
+.showcase-text li {
+    font-size: 1.2rem;
+    color: rgb(64, 26, 236);
+}
+
+.display-screen {
+    padding: 30px;
+}
+
+/* .result-screen img {
+    height: 14rem;
+    object-fit: cover;
+    object-position: bottom; 
+    
+} */
+
+.result-screen {
+    background-color: rgba(24, 173, 81, 0.856);
+    padding: 10px;
+    margin-left: 18%;
+    display: flex;
+    align-items: center;
+    gap: 5%;
+    width: 64%;
+}
+
+.gallery {
+    margin-top: 15%;
+}
+
+.row {
+    margin-left: 3%;
+    gap: 1%;
+    margin-bottom: 1%;
+}
+.col-sm {
+    background-color: rgba(226, 241, 232, 0.747);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(79, 231, 100);
+    border-radius: 1px;
+}
+
+/* page */
+
+#formOne {
+    width: 90%;
+    margin-top: 20%;
+    margin-left: 9%;
+    background-color: darkcyan;
+    padding: 40px;
+    margin-bottom: 5%;
+}
+
+blockquote {
+    margin-left: 10%;
+    margin-top: 20%;
+}
+
+blockquote p {
+    font-size: 2.2rem;
+    width: 60%;
+}
+/* Information */
+.display-info {
+    margin-top: 55%;
+    margin-left: 5%;
+}
+
+/* Update */
+.election-info {
+    margin-top: 55%;
+    margin-left: 5%;
+}
+
+/* register */
+
+#formTwo {
+    width: 90%;
+    margin-top: 36%;
+    margin-left: 9%;
+    background-color: darkgoldenrod;
+    padding: 40px;
+    margin-bottom: 5%;
+    
+}
+
+.show-case p {
+    margin-top: 22%;
+    margin-left: 15%;
+    font-size: 2.7rem;
+    width: 20%;
+}
+
+.congratulatory {
+    margin-top: 29%;
+    margin-left: 20%;
+    width: 70%;
+    background-color: aquamarine;
+    padding: 8px;
+    justify-content: center;
+    margin-bottom: 5%;
+    display: none;
+}
+
+.bigger {
+    font-size: 1.2rem;
+}
+
+.footer {
+    margin-right: -10%;
+   width: 105%;
+   color: white;
+   font-size: 1.1rem;
+   margin-bottom: 0;
+   min-height: 40px;
+}
