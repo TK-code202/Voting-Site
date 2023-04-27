@@ -6,8 +6,10 @@ $(document).ready(function() {
         const age = $("input#age").val();
         if (age >= 18) {
             window.location = "./update.html"
+            alert("You are old enough to vote.");
         } else {
             window.location = "./information.html"
+            alert("You are not yet old enough to vote.");
         }
 
         event.preventDefault();
